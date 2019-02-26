@@ -1,5 +1,6 @@
 # Chrome Extension: PageViewer
-View web page sources (links, images, videos, scripts) by category.  
+View web page sources (links, images, videos, scripts) by category.
+
 ![alt](preview.jpg)
 ## Reference:  
 [GreenBrowser PageViewer plugin](http://www.morequick.com/)  
