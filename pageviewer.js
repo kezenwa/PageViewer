@@ -37,7 +37,7 @@ for(i=0; i<links.length; i++){
 s += '</table>\n';
 s += '<table id="list_image" class="list">\n<tr><th>ID</th><th>Image</th><th>Size</th></tr>\n';
 for(i=0; i<imgs.length; i++){
-	s = s + '<tr><td>' + (i+1) + '</td><td><img src="' + imgs[i].src + '"><br>' + imgs[i].src + '</td><td>' + imgs[i].naturalWidth + ' X ' + imgs[i].naturalHeight +'</td></tr>\n';
+	s = s + '<tr><td>' + (i+1) + '</td><td><img src="' + imgs[i].src + '"><br><a href="' + imgs[i].src + '" target="_blank">' + imgs[i].src + '</a></td><td>' + imgs[i].naturalWidth + ' X ' + imgs[i].naturalHeight +'</td></tr>\n';
 }
 s += '</table>\n';
 s += '<table id="list_video" class="list">\n<tr><th>ID</th><th>Video</th><th>Size</th></tr>\n';
